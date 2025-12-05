@@ -86,18 +86,14 @@ export const siteConfig: SiteConfig = {
 		// "mobile" = 仅在移动端显示
 		// "desktop" = 仅在桌面端显示
 		// "both" = 在所有设备上显示
-		showModeSwitchOnMobile: "desktop",
+		showModeSwitchOnMobile: "both",
 	},
 
 banner: {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播 
           src: { 
-			desktop: [
-				"/assets/desktop-banner/swirl (2).jpg",
-					 ], // 桌面横幅图片 
-			mobile: [
-				"/assets/desktop-banner/swirl (2).jpg",
-			], // 移动横幅图片
+			desktop: [], // 桌面横幅图片 
+			mobile: [], // 移动横幅图片
 		}, // 使用本地横幅图片
 
 		position: "center", // 等同于 object-position，仅支持 'top', 'center', 'bottom'。默认为 'center'
@@ -109,7 +105,7 @@ banner: {
 		},
 
 		waves: {
-			enable: true, // 是否启用水波纹效果(这个功能比较吃性能)
+			enable: false, // 是否启用水波纹效果(这个功能比较吃性能)
 			performanceMode: false, // 性能模式：减少动画复杂度(性能提升40%)
 			mobileDisable: true, // 移动端禁用
 		},
@@ -125,10 +121,10 @@ banner: {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "0xSky's personal blog", // 主页横幅主标题
+			title: "", // 主页横幅主标题
 
 			subtitle: [
-				"Write-ups, Explanations, and more!"
+				""
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
@@ -190,12 +186,8 @@ banner: {
 };
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	src: {
-		desktop: [
-			"/assets/desktop-banner/swirl (2).jpg",
-		], // 桌面横幅图片
-		mobile: [
-			"/assets/mobile-banner/swirl (3).jpg",
-		], // 移动横幅图片
+		desktop: [], // 桌面横幅图片
+		mobile: [], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
 	carousel: {
