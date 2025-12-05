@@ -91,7 +91,8 @@ export const siteConfig: SiteConfig = {
 
 banner: {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播 
-		src: { 
+		  enable: false
+          src: { 
 			desktop: [], // 桌面横幅图片 
 			mobile: [], // 移动横幅图片
 		}, // 使用本地横幅图片
