@@ -14,6 +14,6 @@ I really enjoy documenting what I learn, which is why I started this blog — to
 - Cybersecurity notes
 - Clear explanations and corrections of common misconceptions
 - Random tech thoughts and experiments
-- 
+
 Thanks for passing by — I hope you find something useful, fun, or inspiring here!  
 Feel free to reach out anytime :)
