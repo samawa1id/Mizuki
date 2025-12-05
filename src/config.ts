@@ -86,14 +86,15 @@ export const siteConfig: SiteConfig = {
 		// "mobile" = 仅在移动端显示
 		// "desktop" = 仅在桌面端显示
 		// "both" = 在所有设备上显示
-		showModeSwitchOnMobile: "off",
+		showModeSwitchOnMobile: "desktop",
 	},
 
 banner: {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播 
-		  enable: false,
           src: { 
-			desktop: [], // 桌面横幅图片 
+			desktop: [
+				"/assets/desktop-banner/swirl (2).jpg",
+					 ], // 桌面横幅图片 
 			mobile: [], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -187,8 +188,12 @@ banner: {
 };
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	src: {
-		desktop: [], // 桌面横幅图片
-		mobile: [], // 移动横幅图片
+		desktop: [
+			"/assets/desktop-banner/swirl (2).jpg",
+		], // 桌面横幅图片
+		mobile: [
+			"/assets/desktop-banner/download.jpg",
+		], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
 	carousel: {
