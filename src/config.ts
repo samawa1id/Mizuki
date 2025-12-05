@@ -30,8 +30,13 @@ export const siteConfig: SiteConfig = {
 	lang: SITE_LANG,
 
 	themeColor: {
-		hue: 265, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
-		fixed: false, // 对访问者隐藏主题色选择器
+	hue: 265,
+	fixed: false,
+    },
+    
+	appearance: {
+	defaultMode: "dark",  // force dark theme by default
+	switch: true,          // allow users to toggle
 	},
 
 	// 特色页面开关配置(关闭不在使用的页面有助于提升SEO,关闭后直接在顶部导航删除对应的页面就行)
@@ -107,7 +112,7 @@ banner: {
 		},
 
 		waves: {
-			enable: false, // 是否启用水波纹效果(这个功能比较吃性能)
+			enable: true, // 是否启用水波纹效果(这个功能比较吃性能)
 			performanceMode: false, // 性能模式：减少动画复杂度(性能提升40%)
 			mobileDisable: false, // 移动端禁用
 		},
