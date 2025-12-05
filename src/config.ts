@@ -95,7 +95,9 @@ banner: {
 			desktop: [
 				"/assets/desktop-banner/swirl (2).jpg",
 					 ], // 桌面横幅图片 
-			mobile: [], // 移动横幅图片
+			mobile: [
+				"/assets/mobile-banner/swirl (3).jpg",
+			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
 		position: "center", // 等同于 object-position，仅支持 'top', 'center', 'bottom'。默认为 'center'
