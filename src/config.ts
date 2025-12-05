@@ -194,7 +194,7 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 			"/assets/desktop-banner/swirl (2).jpg",
 		], // 桌面横幅图片
 		mobile: [
-			"/assets/desktop-banner/download.jpg",
+			"/assets/mobile-banner/swirl (3).jpg",
 		], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
@@ -203,7 +203,7 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 		interval: 5, // 轮播间隔时间（秒）
 	},
 	zIndex: -1, // 层级，确保壁纸在背景层
-	opacity: 0.8, // 壁纸透明度
+	opacity: 0, // 壁纸透明度
 	blur: 1, // 背景模糊程度
 };
 
@@ -218,10 +218,10 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:link",
 			children: [
 				{
-					name: "GitHub",
-					url: "https://github.com/samawa1id",
+					name: "Medium",
+					url: "https://medium.com/@ssumix",
 					external: true,
-					icon: "fa6-brands:github",
+					icon: "fa6-brands:medium",
 				},
 				{
 					name: "Telegram",
@@ -284,10 +284,10 @@ export const profileConfig: ProfileConfig = {
 	},
 	links: [
 		{
-			name: "GitHub",
-			icon: "fa6-brands:github",
-			url: "https://github.com/samawa1id",
-		},
+			name: "Medium",
+			url: "https://medium.com/@ssumix",
+			icon: "fa6-brands:medium",
+				},
 		{
 			name: "Telegram",
 			icon: "fa6-brands:telegram",
