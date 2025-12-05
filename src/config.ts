@@ -32,7 +32,7 @@ export const siteConfig: SiteConfig = {
 	themeColor: {
 	hue: 265,
 	fixed: false,
-	defaultTheme: "dark",
+	default: "dark",
     },
 	// 特色页面开关配置(关闭不在使用的页面有助于提升SEO,关闭后直接在顶部导航删除对应的页面就行)
 	featurePages: {
