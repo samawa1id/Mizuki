@@ -249,7 +249,7 @@ export const navBarConfig: NavBarConfig = {
 				},
 			],
 		},
-		{
+		 /*{
 			name: "Others",
 			url: "#",
 			icon: "material-symbols:more-horiz",
@@ -270,7 +270,7 @@ export const navBarConfig: NavBarConfig = {
 					icon: "material-symbols:timeline",
 				},
 			],
-		},
+		}, */
 	],
 };
 
