@@ -702,10 +702,7 @@ html {
   --_spoiler-mask: color-mix(in oklch, var(--primary) 55%, white 45%);
 }
 
-#banner-wrapper,
-.hero {
-    display: none !important;
-    height: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
+main {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
 }
