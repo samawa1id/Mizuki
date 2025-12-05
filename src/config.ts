@@ -89,7 +89,7 @@ export const siteConfig: SiteConfig = {
 		showModeSwitchOnMobile: "desktop",
 	},
 
-	/* banner: {
+banner: {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播 
 		src: { 
 			desktop: [ 
@@ -150,7 +150,6 @@ export const siteConfig: SiteConfig = {
 			transparentMode: "semifull", // 导航栏透明模式："semi" 半透明加圆角，"full" 完全透明，"semifull" 动态透明
 		},
 	},
-	*/
 	toc: {
 		enable: true, // 启用目录功能
 		mode: "sidebar", // 目录显示模式："float" 悬浮按钮模式，"sidebar" 侧边栏模式
