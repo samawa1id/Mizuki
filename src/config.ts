@@ -228,10 +228,10 @@ export const navBarConfig: NavBarConfig = {
 					icon: "fa6-brands:telegram",
 				},
 				{
-					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
+					name: "Discord",
+					url: "https://discord.com/users/1391797797946261594",
 					external: true,
-					icon: "mdi:git",
+					icon: "fa6-brands:discord",
 				},
 			],
 		},
@@ -294,7 +294,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Discord",
 			icon: "fa6-brands:discord",
-			url: "https://discord.gg/MqW6TcQtVM",
+			url: "https://discord.com/users/1391797797946261594",
 		},
 	],
 };
@@ -323,10 +323,10 @@ export const commentConfig: CommentConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "Announcement", // 公告标题
-	content: "Welcome to my blog! This is a sample announcement.", // 公告内容
-	closable: true, // 允许用户关闭公告
+	content: "Welcome to my blog!", // 公告内容
+	closable: false, // 允许用户关闭公告
 	link: {
-		enable: true, // 启用链接
+		enable: false, // 启用链接
 		text: "Learn More", // 链接文本
 		url: "/about/", // 链接 URL
 		external: false, // 内部链接
