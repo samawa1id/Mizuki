@@ -124,11 +124,11 @@ banner: {
 		// 请自行搭建API
 
 		homeText: {
-			enable: false, // 在主页显示自定义文本
-			title: "Welcome to my personal blog!", // 主页横幅主标题
+			enable: true, // 在主页显示自定义文本
+			title: "0xSky's personal blog", // 主页横幅主标题
 
 			subtitle: [
-				"Just a girl passionate about cybersecurity"
+				"Write-ups, Explanations, and more!"
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
