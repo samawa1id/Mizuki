@@ -80,7 +80,7 @@ export const siteConfig: SiteConfig = {
 	// 壁纸模式配置
 	wallpaperMode: {
 		// 默认壁纸模式：banner=顶部横幅，fullscreen=全屏壁纸，none=无壁纸
-		defaultMode: "off",
+		defaultMode: "none",
 		// 整体布局方案切换按钮显示设置（默认："desktop"）
 		// "off" = 不显示
 		// "mobile" = 仅在移动端显示
@@ -96,7 +96,7 @@ banner: {
 				"/assets/desktop-banner/swirl (2).jpg",
 					 ], // 桌面横幅图片 
 			mobile: [
-				"/assets/mobile-banner/swirl (3).jpg",
+				"/assets/desktop-banner/swirl (2).jpg",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
