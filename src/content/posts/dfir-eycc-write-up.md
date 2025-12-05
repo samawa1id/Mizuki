@@ -70,5 +70,4 @@ And here’s the flag!
 
 ---
 
-That was all! Don’t forget to check my other write-ups for the **Web, Crypto, and OSINT** challenges.```er”** and I’ll prep it exactly like the others.
-```
+That was all! Don’t forget to check my other write-ups for the **Web, Crypto, and OSINT** challenges.
