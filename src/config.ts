@@ -51,7 +51,8 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题文本
 		text: "0xSky",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
-		icon: "assets/home/home.png",
+		//icon: "assets/home/home.png",
+		icon: "material-icon:home",
 	},
 
 	bangumi: {
