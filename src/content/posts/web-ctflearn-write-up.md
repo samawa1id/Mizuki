@@ -57,16 +57,16 @@ Try to bypass my security measure on this site!
 
 I noticed that the challenge involved headers as its name indicates, so I sent a GET request using burp as my first step
 
-<photo>
+![screenshot](./header.png)
 
 Then I noticed the comment `<!-- Sup3rS3cr3tAg3nt -->`, which could be the agent that the challenge accepts. So I sent another request, changing the **User-Agent** to `Sup3rS3cr3tAg3nt`.
 
-<photo>
+![screenshot](./header2.png)
 
 And it worked! but it still needed to be "accessed" from **awesomesauce.com**, which made me think of referring to it by adding:
 `Referer: awesomesauce.com` to the header.
 
-<photo>
+![screenshot](./header3.png)
 
 And we got our flag!
 
