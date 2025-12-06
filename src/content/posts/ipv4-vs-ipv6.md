@@ -25,3 +25,5 @@ Now, you'd think everyone would've switched to IPv6 by now, right? Well, *not so
 But IPv6 isn't *just* about having more addresses. It's also designed to be more efficient, with simpler routing and built-in security features like IPsec, which helps keep your data encrypted and safe. So, while we're still in this *awkward transition phase*, IPv6 is slowly but surely becoming the new standard. It's the future of the internet, it's just taking its sweet time getting here!
 
 **Want to check your connection?** Try: [test-ipv6.com](https://test-ipv6.com)
+---
+*Featured illustration from [NordVPN's IPv4 vs IPv6 comparison guide](https://nordvpn.com/blog/ipv4-vs-ipv6/)*
