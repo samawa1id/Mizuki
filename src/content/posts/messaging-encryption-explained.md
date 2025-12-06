@@ -1,6 +1,6 @@
 ---
-title: "Why WhatsApp Needs Backups & Telegram Doesn't"
-description: "The real reason isn't just about cloud storage, it's about how your chats are encrypted."
+title: "Cloud Chats vs End-to-End Encryption — Why Some Apps Need Backups"
+description: "a look at why WhatsApp needs manual backups while Telegram syncs everything automatically"
 published: 2025-05-04
 draft: false
 tags: ["Encryption", "Backups", "Privacy", "Tech Thoughts"]
