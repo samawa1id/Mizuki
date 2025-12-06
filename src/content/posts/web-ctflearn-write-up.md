@@ -13,11 +13,11 @@ draft: false
 
 The challenge provided the original SQL query that shows the result, which was `SELECT * FROM webfour.webfour where name = '$input'`. This query takes the user's input and checks it in its database for a matching name.
 
-![screenshot](./basic_inj.png)
+![screenshot](./basic_inj_1.png)
 
 So, I tried injecting `' OR '1' = '1` and it dumped the database, showing the flag!
 
-![screenshot](./basic_inj2.png)
+![screenshot](./basic_inj_2.png)
 
 ---
 
