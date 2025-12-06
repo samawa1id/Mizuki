@@ -1,7 +1,7 @@
 ---
 title: EYCC 2025 — OSINT Challenges
 published: 2025-09-07
-pinned: true
+pinned: false
 description: a write-up for EYCC's OSINT challenges
 tags: [OSINT, CTF, Write-up, EYCC]
 category: Write-ups
