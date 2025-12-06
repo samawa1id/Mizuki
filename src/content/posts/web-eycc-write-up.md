@@ -1,7 +1,7 @@
 ---
 title: EYCC 2025 — Web Challenges
 published: 2025-09-07
-pinned: true
+pinned: false
 description: a write-up for EYCC's web challenges
 tags: [Web, CTF, Write-up, EYCC]
 category: Write-ups
