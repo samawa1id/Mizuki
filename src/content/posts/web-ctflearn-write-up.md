@@ -28,7 +28,7 @@ http://165.227.106.113/post.php
 
 After checking the website, I found some credentials in the source code
 
-![screenshot](./post.png)
+![screenshot](./post1.png)
 
 So my first thought was sending a post request using `curl`:
 
