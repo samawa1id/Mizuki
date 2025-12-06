@@ -1,7 +1,7 @@
 ---
 title: EYCC 2025 — OSINT Challenges (onsite-round)
 published: 2025-09-20
-pinned: true
+pinned: false
 description: a write-up for EYCC's onsite-round OSINT challenges
 tags: [OSINT, CTF, Write-up, EYCC]
 category: Write-ups
