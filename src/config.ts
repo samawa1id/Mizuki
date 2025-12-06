@@ -23,7 +23,7 @@ export const siteConfig: SiteConfig = {
 	title: "0xSky",
 	subtitle: "Blog",
 	siteURL: "https://ssumix.vercel.app/", // 请替换为你的站点URL，以斜杠结尾
-	siteStartDate: "2025-01-01", // 站点开始运行日期，用于站点统计组件计算运行天数
+	siteStartDate: "2025-05-01", // 站点开始运行日期，用于站点统计组件计算运行天数
 
 	timeZone: SITE_TIMEZONE,
 
@@ -51,8 +51,7 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题文本
 		text: "0xSky",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
-		//icon: "assets/home/home.png",
-		icon: "material-icon:home",
+		icon: "assets/home/homee.png",
 	},
 
 	bangumi: {
