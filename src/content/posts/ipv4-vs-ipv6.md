@@ -5,7 +5,7 @@ description: "A simple guide explaining the differences between IPv4 and IPv6 an
 image: https://ic.nordcdn.com/v1/https://sb.nordcdn.com/m/f4bd9beef352df91/original/blog-featured-ipv4-vs-ipv6-attack-svg.svg
 tags: [Networking, Explanation, Cybersecurity] 
 category: Explanations
-draft: flase
+draft: false
 ---
 So, you know how every device on the internet needs a unique address to communicate? Well, for the longest time, IPv4 was *the go-to format* for that. It's the classic 32-bit address you've probably seen before—something like **`192.168.1.1`**. But here's the thing: as more and more devices started connecting to the internet (think smartphones, smart fridges, *even smart toasters!*), we started running out of IPv4 addresses. It's like trying to fit an ever-growing crowd into a tiny room... eventually, there's just no space left.
 
