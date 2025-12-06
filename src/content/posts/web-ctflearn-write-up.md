@@ -100,17 +100,18 @@ and I think they have the flag in their somewhere. UNION might be a helpful comm
 
 The website looked similar to the `Basic injection`'s website. It asks for an id then shows information about dogs
 
-<photo>
+![screenshot](./inj.png)
+
 
 I noticed that it only accepts numbers from 1 to 3, and no other characters, so even though it's an SQLi challenge it doesn't show an error when entering quotes. However, a UNION attack may be used as the challenge description hints.
 
 So, after some testing NULL values with UNION SELECT I found that **we have 4 columns**
 
-<photo>
+![screenshot](./inj2.png)
 
 Then I checked which columns are vulnerable
 
-<photo>
+![screenshot](./inj3.png)
 
 After that I checked the available tables by querying:
 
@@ -118,7 +119,7 @@ After that I checked the available tables by querying:
 table_name from information_schema.tables
 ```
 
-<photo>
+![screenshot](./inj4.png)
 
 I scrolled down a bit till I noticed an interesting table: `w0w_y0u_f0und_m3`.
 
@@ -128,7 +129,7 @@ Then I checked the available columns by querying:
 column_name from information_schema.columns
 ```
 
-<photo>
+![screenshot](./inj5.png)
 
 And after scrolling down again, I noticed an interesting column name: `f0und_m3`.
 
@@ -140,4 +141,4 @@ As we now have the column and table names, our final query should be:
 
 Which worked!
 
-<photo>
+![screenshot](./inj6.png)
