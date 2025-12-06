@@ -1,6 +1,6 @@
 --- 
 title: IPv4 vs IPv6 — What’s the Difference?
-published: 2025-12-06 
+published: 2025-02-05 
 description: "A simple guide explaining the differences between IPv4 and IPv6 and why the transition matters." 
 image: https://ic.nordcdn.com/v1/https://sb.nordcdn.com/m/f4bd9beef352df91/original/blog-featured-ipv4-vs-ipv6-attack-svg.svg
 tags: [Networking, Explanation, Cybersecurity] 
